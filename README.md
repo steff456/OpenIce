@@ -8,6 +8,9 @@ Con MongoDB custom
 
 ## Requirements: 
 
-- MongoDB running anywhere
+- MongoDB running anywhere with replication set
+```
+mongod --dbpath /var/lib/mongodb/data/db --replSet rs0
+```
 - The database must exist
 - Any file .js must exist
